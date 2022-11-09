@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Middle | Home</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="/css/style3.css">
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- jQuery Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+
+<body>
+  <!-- Start of Navbar -->
+  <div id="navbar" class="container">
+    <div class = "logo">
+      <img src="/images/logo.png" alt="">
+      </div>
+    <nav class="navbar navbar-expand-md fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="/">Hope</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <img src="images/logo.png" alt=""> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item"><a href="/creategroup" class="nav-link">Create Group</a></li>
+            <li class="nav-item"><a href="/joingrp" class="nav-link">Join Group</a></li>
+
+            
+            <li class="nav-item"><a href="/instantmeet" class="nav-link">Instant Meet</a></li>
+            <li class="nav-item"><a href="/Aboutus" class="nav-link">About Us</a></li>
+
+          <li class="nav-item"><a href="/Help" class="nav-link">Help</a></li>
+          <li class="nav-item"><a href="/index" class="nav-link">Log out</a>
+          </li>
+        </ul>
+  </div>
+    </div>
+  </nav>
+  <div class = "left" id = "leftvali">
+    <img src="images/doctor.svg" alt="">
+    <!-- <input type="submit" value="Book YourSelf As A psychiatrist" class="btn solid" /> -->
+    </div>
+    <div>
+      <!-- <div class="forms-container">
+        <div class="signin-signup">
+          <form action="/index" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <small><%= title %></small>
+            <small><%= password %></small>
+            <small><%= email %></small>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name = "name" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" name = "email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" password = "password" placeholder="Password" />
+            </div> -->
+            
+    <!-- </div> -->
+    <!-- <div class = "button">
+    </div>
+  </div> -->
+
+  <div id="start" class="container-fluid">
+    <!-- Start of Host or Join Div -->
+    <div data-aos="fade-down-right" data-aos-duration="1000" class="home-div row container-fluid">
+      <div class="col-lg-6">
+        <h1 class="heading">Talk to Experts <br />with hope</h1>
+        <p class="text-muted">We must accept finite disappointment, but never lose infinite hope</p>
+        <div style="display: flex;">
+          <form class="" action="/hostmeet" method="get">
+            <button type="submit" class="btn btn-lg" name="button">Book yourself as psychiatrist</button>
+          </form>
+        </div>
+  
+      </div>
+      <div class="col-lg-6">
+        <img src="/images/home-1.jpeg" alt="">
+      </div>
+      <br>
+      <hr>
+    </div>
+    <!-- End of Host or Join Div -->
+  
+    <br><br>
+    <!-- Start of Login and Signup Div -->
+    <div data-aos="fade-down-left" data-aos-duration="1000" class="home-div row container-fluid">
+      <div class="col-lg-8">
+        <img src="/images/home-3.png" alt="">
+      </div>
+      <div class="col-lg-4">
+        <h1 class="heading-left">Rate us</h1>
+        <h4>No of star</h4>
+        <input type="number" name = "star" placeholder="star"/> <!-- <h1 id="place" class="heading"></h1> -->
+      
+        <div style="display:flex;justify-content: flex-end;"></div>
+        </div>
+  
+      </div>
+    </div>
+    <!-- End of Login and Signup Div -->
+  </div>
+</body>
+
+</html>
